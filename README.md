@@ -4,3 +4,7 @@
 - Шкиль Алексей [@alexhlins](https://github.com/alexhlins)
 ## Решаемая задача
 Expresso Churn Prediction Challenge - определить признаки, по которым можно спрогнозировать уход клиента 
+
+Полное описание задачи и наборы данных доступны по [ссылке](https://zindi.africa/competitions/expresso-churn-prediction/).
+
+## План решения
