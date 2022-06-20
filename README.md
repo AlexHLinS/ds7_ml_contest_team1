@@ -14,7 +14,10 @@
 Исходное описание задачи доступны по [ссылке](https://zindi.africa/competitions/expresso-churn-prediction/).
 
 ## 3. 
-## 4. 
+## 4. Baseline
+В задании был представлен [Jupyter notebook](StarterNotebook.ipynb) с обзором предоставляемого набора данных, а также предложена модель решения задачи.
+
+В качестве Baseline предложен алгоритм RandomForest, 
 ## 5. 
 ## 6. 
 ## 7. 
