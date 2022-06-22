@@ -129,7 +129,18 @@
 
 | № | Название модели                  | Описание модели | Предобработка данных|roc-auc на валидационной выборке  | roc-auc на leaderboard | 
 |---|----------------------------------|-----------------|---------------------|----------------------|------------------------|
-| 1 | RandomForestClassifier(BaseLine) | bootstrap=True, criterion = "gini", max_depth=7, n_estimators=200| nan заменены на среднее, region удален, TENURE закодирован label encoder|....................| 0.500108 |
+| 1 | RandomForestClassifier(BaseLine) | bootstrap=True, criterion = "gini", max_depth=7, n_estimators=200| nan заменены на среднее, region удален, TENURE закодирован label encoder|....................| 0.500 |
+| 2 | DecisionTreeClassifier | ccp_alpha=0.001, criterion='entropy', max_depth=7, max_features=0.5, min_samples_leaf=7, random_state=124|Первая итерация|0.812| ......... |
+| 3 | RandomForestClassifier | .........|Первая итерация|.........| ......... |
+| 4 | GradientBoostingClassifier | .........|Первая итерация|.........| ......... |
+| 5 | KNeighborsClassifier | .........|Первая итерация|.........| ......... |
+| 6 | Naive bayes | .........|Первая итерация|.........| ......... |
+| 7 |Logistic Regression | .........|Первая итерация|.........| ......... |
+| 8 | SVM (SVC) | .........|Первая итерация|.........| ......... |
+| 9 | LightGBM | .........|Первая итерация|.........| ......... |
+| 10 | xgboost | .........|Первая итерация|.........| ......... |
+| 11 | CatBoost | .........|Первая итерация|.........| ......... |
+
 
 
 ## 8. Итоговые метрики
