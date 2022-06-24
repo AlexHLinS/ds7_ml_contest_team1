@@ -131,5 +131,7 @@ dmypy.json
 # datasets to prevent big file transmit issure
 *.csv
 *.txt
+_*.*
+*.tmp
 
 .idea
